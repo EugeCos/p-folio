@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
+    <meta name="description" content="Eugene Costov web-development portfolio.">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam: 100,300,400" rel="stylesheet">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
@@ -25,33 +26,44 @@
     <meta name="theme-color" content="#ffffff">
 
 </head>
+
 <body>
-    <header>
+    <header id="header">
         <nav>
             <div class="row">
                 <a href="#" class="logo">Eugene Costov</a>
-                <p class="black_logo">Eugene Costov</p>
-                <ul class="main-nav"> 
-                    <li><a href="#">home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#works">Portfolio</a></li>
-                    <li><a href="#signup">Contact</a></li>
+                <a href="#header"><p class="black_logo">Eugene Costov</p></a>
+                <ul class="main-nav">
+                    <li>
+                        <a href="#header">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#works">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
-                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <i class="ion-navicon-round"></i>
+                </a>
             </div>
         </nav>
 
         <div class="dev-text-box">
             <h1>Full stack web developer</h1>
             <h3 class="quote">embrace uncertainty</h3>
-            <a class="btn btn-full js--scroll-to-plans" href="#">Projects</a>
+            <a class="btn btn-full" href="#works">Projects</a>
             <br>
-            <a href="#works" class="icon"><i class="ion-android-funnel icon-big"></i></a>   
+                <a href="#works" class="icon-big"><i class="ion-android-funnel"></i></a>
         </div>
     </header>
 
 
-    <section class="section-features features-background js--section-features" id="about">
+    <section class="section-about picture-background js--section-features" id="about">
         <div class="row">
             <h2>About</h2>
         </div>
@@ -60,319 +72,398 @@
                 <img src="./resources/img/myPic.jpg" class="myPic">
             </div>
             <div class="col span-1-of-2 myBio">
-                    <h3>eugene costov</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                    <ul class="social-icons">
-                        <a href="https://ca.linkedin.com/in/eugenecostov" target="_blank" class="social-linked">
-                    <li>
-                        <i class="fab fa-linkedin linked"></i>
-                        <span>&nbsp;&nbsp;/&nbsp;eugenecostov</span>
-                        </a>
-                    </li>                 
-                        <a href="https://github.com/EugeCos" target="_blank"class="social-github">
-                    <li>
-                        <i class="fab fa-github-alt git"></i>
-                        <span>&nbsp;&nbsp;/&nbsp;EugeCos</span>
-                        </a>
+                <h3>eugene costov</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <ul class="social-icons">
+                    <a href="https://ca.linkedin.com/in/eugenecostov" target="_blank" class="social-linked">
+                        <li>
+                            <i class="fab fa-linkedin linked"></i>
+                            <span>&nbsp;&nbsp;/&nbsp;eugenecostov</span>
+                    </a>
                     </li>
-                    </ul>
-                </div>
+                    <a href="https://github.com/EugeCos" target="_blank" class="social-github">
+                        <li>
+                            <i class="fab fa-github-alt git"></i>
+                            <span>&nbsp;&nbsp;/&nbsp;EugeCos</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
-        <section class="projects-main features-background clearfix" id="works">
-            <div class ="row">
-                <h2>projects</h2>
+    <section class="section-features picture-background js--section-features clearfix" id="works">
+        <div class="row">
+            <h2>projects</h2>
+        </div>
+        <div class="row js--wp-2">
+            <div class="col span-1-of-3">
+                <a href="#immigrate" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/imm.jpg" alt="immigrate.TO" />
+                        <p class="text">immigrate.TO</p>
+                    </figure>
+                </a>
             </div>
-            <div class="row">
-                    <div class="col span-1-of-3">
-                        <a href="#immigrate" style="text-decoration:none">
-                        <figure class="project-box">
-                                <img src="./resources/img/projects/imm.jpg" alt="immigrate.TO"/>
-                                <p class="text">immigrate.TO</p>
-                        </figure>  
-                        </a>    
-                    </div>               
-                    
-                        <div class="col span-1-of-3">
-                            <a href="#weather" style="text-decoration:none">
-                            <figure class="project-box">
-                                <img src="./resources/img/projects/weather.jpg" alt="weather"/>
-                                <p class="text">Weather App</p>
-                            </figure>
-                            </a>
-                        </div>
-                    
-                            <div class="col span-1-of-3">
-                                <a href="#audio" style="text-decoration:none">
-                                <figure class="project-box">
-                                    <img src="./resources/img/projects/audio_player.jpg" alt="immigrate.TO"/>
-                                    <p class="text">Simple Audio Player</p>
-                                </figure>
-                                </a>
-                            </div>
-                        
+
+            <div class="col span-1-of-3">
+                <a href="#weather" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/weather.jpg" alt="weather" />
+                        <p class="text">Weather App</p>
+                    </figure>
+                </a>
             </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <a href="#snowman" style="text-decoration:none">
-                        <figure class="project-box">
-                            <img src="./resources/img/projects/snowman.jpg" alt="snowman"/>
-                            <p class="text">Snowman Game</p>
-                        </figure>
-                        </a>
-                    </div>
-                        <div class="col span-1-of-3">
-                            <a href="#todo" style="text-decoration:none">
-                            <figure class="project-box">
-                                <img src="./resources/img/projects/todo.jpg" alt="todo"/>
-                                <p class="text">To-do List</p>
-                            </figure>
-                            </a>
-                        </div>
-                            <div class="col span-1-of-3">
-                                <a href="#imdb" style="text-decoration:none">
-                                <figure class="project-box">
-                                        <img src="./resources/img/projects/imdb.jpg" alt="imdb"/>
-                                        <p class="text">Movie Database</p>
-                                </figure>
-                                </a>
-                            </div>
-                </div>
-        </section>
 
-        <section class="section-features features-background js--section-features" id="immigrate">
-                <div class="row">
-                    <h2>immigrate.TO</h2>
-                </div>
-                <div class="row js--wp-1">
-                    <div class="col span-1-of-2">
-                        <img src="./resources/img/projects/imm.jpg" class="appImage">
-                    </div>
-                    <div class="col span-1-of-2 myBio">
-                            <h3>&nbsp;</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                            <div>
-                                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                            </div>
-                                <div>
-                                    <a href="#" class="btn btn-project">Visit Project</a>
-                                </div>
-                        </div>
-                </div>
-            </section>
+            <div class="col span-1-of-3">
+                <a href="#audio" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/audio_player.jpg" alt="immigrate.TO" />
+                        <p class="text">Simple Audio Player</p>
+                    </figure>
+                </a>
+            </div>
 
-            <section class="section-features features-background js--section-features" id="weather">
-                    <div class="row">
-                        <h2>Weather App</h2>
-                    </div>
-                    <div class="row js--wp-1">
-                        <div class="col span-1-of-2">
-                            <img src="./resources/img/projects/weather.jpg" class="appImage">
-                        </div>
-                        <div class="col span-1-of-2 myBio">
-                                <h3>&nbsp;</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                                <div>
-                                        <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                </div>
-                                    <div>
-                                        <a href="#" class="btn btn-project">Visit Project</a>
-                                    </div>
-                            </div>
-                    </div>
-                </section>
+        </div>
+        <div class="row js--wp-2">
+            <div class="col span-1-of-3">
+                <a href="#snowman" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/snowman.jpg" alt="snowman" />
+                        <p class="text">Snowman Game</p>
+                    </figure>
+                </a>
+            </div>
+            <div class="col span-1-of-3">
+                <a href="#todo" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/todo.jpg" alt="todo" />
+                        <p class="text">To-do List</p>
+                    </figure>
+                </a>
+            </div>
+            <div class="col span-1-of-3">
+                <a href="#imdb" style="text-decoration:none">
+                    <figure class="project-box">
+                        <img src="./resources/img/projects/imdb.jpg" alt="imdb" />
+                        <p class="text">Movie Database</p>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </section>
 
-                <section class="section-features features-background js--section-features" id="audio">
+    <section class="section-features picture-background js--section-features" id="immigrate">
+        <div class="row">
+            <h2>immigrate.TO</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/imm.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features picture-background js--section-features" id="weather">
+        <div class="row">
+            <h2>Weather App</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/weather.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features picture-background js--section-features" id="audio">
+        <div class="row">
+            <h2>Audio Player</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/audio_player.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features picture-background js--section-features" id="snowman">
+        <div class="row">
+            <h2>Snowman</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/snowman.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features picture-background js--section-features" id="todo">
+        <div class="row">
+            <h2>To-Do App</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/todo.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="./resources/img/mongoDB.png" class="mongo">
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features picture-background js--section-features" id="imdb">
+        <div class="row">
+            <h2>Simple Movie Database</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <img src="./resources/img/projects/imdb.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 myBio">
+                <h3>&nbsp;</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <div>
+                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div>
+                    <a href="#" class="btn btn-project">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="picture-background" id="contact">
+        <div class="row">
+            <h2>Questions? Feel free to contact me</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2">
+                <h3>Get in touch</h3>
+                <p class="contact-text">I am very approachable and would love to speak to you. Feel free to send me an email, get in touch on LinkedIn
+                    or simply complete the enquiry form.</p>
+                <ul class="social-icons-contacts">
+                    <a href="mailto:eugene.costov@ymail.com" class="social-email">
+                        <li>
+                            <i class="fas fa-envelope-square email"></i>
+                            <span>&nbsp;&nbsp;/&nbsp;eugene.costov@ymail.com</span>
+                    </a>
+                    </li>
+                    <a href="https://ca.linkedin.com/in/eugenecostov" target="_blank" class="social-linked">
+                        <li>
+                            <i class="fab fa-linkedin linked"></i>
+                            <span>&nbsp;&nbsp;/&nbsp;eugenecostov</span>
+                    </a>
+                    </li>
+                    <a href="https://github.com/EugeCos" target="_blank" class="social-github">
+                        <li>
+                            <i class="fab fa-github-alt git"></i>
+                            <span>&nbsp;&nbsp;/&nbsp;EugeCos</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <h3>Old school way</h3>
+                <div class="contact-box">
+                    <div class="form-box">
                         <div class="row">
-                            <h2>Audio Player</h2>
-                        </div>
-                        <div class="row js--wp-1">
-                            <div class="col span-1-of-2">
-                                <img src="./resources/img/projects/audio_player.jpg" class="appImage">
-                            </div>
-                            <div class="col span-1-of-2 myBio">
-                                    <h3>&nbsp;</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                                    <div>
-                                            <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    </div>
-                                        <div>
-                                            <a href="#" class="btn btn-project">Visit Project</a>
-                                        </div>
-                                </div>
-                        </div>
-                    </section>
-
-                    <section class="section-features features-background js--section-features" id="snowman">
-                            <div class="row">
-                                <h2>Snowman</h2>
-                            </div>
-                            <div class="row js--wp-1">
-                                <div class="col span-1-of-2">
-                                    <img src="./resources/img/projects/snowman.jpg" class="appImage">
-                                </div>
-                                <div class="col span-1-of-2 myBio">
-                                        <h3>&nbsp;</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                                        <div>
-                                                <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        </div>
-                                            <div>
-                                                <a href="#" class="btn btn-project">Visit Project</a>
-                                            </div>
-                                    </div>
-                            </div>
-                        </section>
-
-                        <section class="section-features features-background js--section-features" id="todo">
+                            <form method="post" action="#" class="contact-form">
                                 <div class="row">
-                                    <h2>To-Do App</h2>
+                                    <div class="col span-1-of-3">
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="col span-2-of-3">
+                                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                                    </div>
                                 </div>
-                                <div class="row js--wp-1">
-                                    <div class="col span-1-of-2">
-                                        <img src="./resources/img/projects/todo.jpg" class="appImage">
+                                <div class="row">
+                                    <div class="col span-1-of-3">
+                                        <label for="email">E-mail</label>
                                     </div>
-                                    <div class="col span-1-of-2 myBio">
-                                            <h3>&nbsp;</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                                            <div>
-                                                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <img src="./resources/img/mongoDB.png" class="mongo">
-                                            </div>
-                                                <div>
-                                                    <a href="#" class="btn btn-project">Visit Project</a>
-                                                </div>
-                                        </div>
+                                    <div class="col span-2-of-3">
+                                        <input type="email" name="email" id="email" placeholder="Your e-mail" required>
+                                    </div>
                                 </div>
-                            </section>
-
-                            <section class="section-features features-background js--section-features" id="imdb">
-                                    <div class="row">
-                                        <h2>Simple Movie Database</h2>
+                                <div class="row">
+                                    <div class="col span-1-of-3">
+                                        <label>Send me a line</label>
                                     </div>
-                                    <div class="row js--wp-1">
-                                        <div class="col span-1-of-2">
-                                            <img src="./resources/img/projects/imdb.jpg" class="appImage">
-                                        </div>
-                                        <div class="col span-1-of-2 myBio">
-                                                <h3>&nbsp;</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                                                <div>
-                                                        <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                </div>
-                                                    <div>
-                                                        <a href="#" class="btn btn-project">Visit Project</a>
-                                                    </div>
-                                            </div>
+                                    <div class="col span-2-of-3">
+                                        <textarea name="message" placeholder="Your message here"></textarea>
                                     </div>
-                                </section>
-
-
-        <div class="map-box">
-                <!-- <div class="map"></div> -->
-                <div class="form-box">
-                <div class="row">
-                    <h2>We're happy to hear from you</h2>
-                </div>
-                <div class="row">
-                    <form method="post" action="#" class="contact-form">
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="text" name="name" id="name" placeholder="Your name" required>
-                            </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col span-1-of-3">
+                                        <label>&nbsp;</label>
+                                    </div>
+                                    <div class="col span-2-of-3" style="text-align: center">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="row">
-                                <div class="col span-1-of-3">
-                                    <label for="email">E-mail</label>
-                                </div>
-                                <div class="col span-2-of-3">
-                                    <input type="email" name="email" id="email" placeholder="Your e-mail" required>
-                                </div>
-                            </div>
-                                    <div class="row">
-                                            <div class="col span-1-of-3">
-                                                <label>Send us a line</label>
-                                            </div>
-                                            <div class="col span-2-of-3">
-                                                <textarea name="message" placeholder="Your message here"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col span-1-of-3">
-                                                    <label>&nbsp;</label>
-                                                </div>
-                                                <div class="col span-2-of-3">
-                                                    <input type="submit" value="Send">
-                                                </div>
-                                            </div>
-                    </form>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-        <footer>
-            <div class="row">
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">iOS App</a></li>
-                        <li><a href="#">Android App</a></li>
-                    </ul>
-                </div>
-                    <div class="col span-1-of-2">
-                    <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                        <li><a href="#"><i class="ion-social-reddit"></i></a></li>
-                    </ul>
-                    </div>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                    <li>
+                        <a href="#">iOS App</a>
+                    </li>
+                    <li>
+                        <a href="#">Android App</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <p>Copyright &copy; 2017 by Omnifood. All rights reserved.</p>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-reddit"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </footer>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2017 by Omnifood. All rights reserved.</p>
+        </div>
+    </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script
-        src="https://code.jquery.com/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-        crossorigin="anonymous"></script>
-        <script src="./resources/js/index.js"></script>
-        <script src="./resources/js/gmaps.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="./resources/js/index.js"></script>
 </body>
 
 </html>
