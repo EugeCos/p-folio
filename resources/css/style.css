@@ -336,74 +336,77 @@ h2:after{
 	width: 95%;
 	height: 222px;
 	border: solid rgb(133, 133, 133) 1px;
-}
-
-.project-box text{
-	position:relative;
-	bottom:30px;
-	left:0px;
-	visibility:hidden;
-}
-
-.project-box:hover .text {
-	visibility:visible;
-	}
-
-.project-photo{
 	margin: 0;
-
 }
 
-.project-photo img{
+.project-box .text{
+	position:relative;
+	font-size: 150%;
+	color: white;
+	text-decoration: none;
+	bottom:145px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s; 
+}
+
+.project-box:hover .text{
+	opacity: 1;
+	border: none
+}
+
+.project-box img{
 	-webkit-backface-visibility: hidden;
 	width: 100%;
 	height: 220px;
 	overflow: hidden;
-	transition: opacity 0.4s;
+	transition: opacity 0.3s;
 }
 
-.project-photo img:hover{
-	opacity: 0.3
+.project-box img:hover{
+	opacity: 0.07
 }
 
 
 /* ---------------------------------------------- */
-/* MEALS */
+/* EACH_PROJECT */
 /* ---------------------------------------------- */
 
-.meals-showcase{
-	list-style: none;
-	width:100%
+.appImage{
+	width: 500px;
+	height:350px;
+	border: 1px solid rgb(173, 173, 173);
+	border-radius: 5px;
 }
 
-.meals-showcase li{
-	display: block;
-	float: left;
-	width: 25%;
+.btn-project:link,
+.btn-project:visited,
+input[type=submit]{
+	background-color: #E53935;
+	color: white;
+	font-size: 80%;
+	margin-top: 20px;
+	padding: 5px 15px
 }
 
-
-
-/* ---------------------------------------------- */
-/* SIGN UP */
-/* ---------------------------------------------- */
-
-.section-plans{ background-color: rgb(214, 214, 214) }
-
-
-.plan-price{
-	font-size: 300%;
-	font-weight: 100;
-	margin-bottom: 10px;
-	color: #E53935
+.btn-project:hover,
+.btn-project:active{
+	border: solid 1px #B71C1C;
 }
 
-.plan-price span{
-	font-size: 30%;
-	font-weight: 300;
+.myBio div{
+	text-align: center
 }
 
-.plan-price-meal{ font-size: 80% }
+.appFonts{
+	margin-top:10px;
+	font-size: 200%
+}
+
+.mongo{
+	height: 30px;
+	opacity:0.7
+}
 
 /* ---------------------------------------------- */
 /* FORM SECTION */
