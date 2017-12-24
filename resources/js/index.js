@@ -73,7 +73,7 @@ $(document).ready(function () {
         let icon = $('.js--nav-icon i')
 
         nav.slideToggle(200);
-        icon.toggleClass('ion-navicon-round ion-close-round')
+        icon.toggleClass('ion-close-round ion-navicon-round')
         // if (icon.hasClass('ion-navicon-round')){
         //     icon.addClass('ion-close-round');
         //     icon.removeClass('ion-navicon-round')

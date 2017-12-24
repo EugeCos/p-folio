@@ -31,8 +31,8 @@
     <header id="header">
         <nav>
             <div class="row">
-                <a href="#" class="logo">Eugene Costov</a>
-                <a href="#header">
+                <a href="http://www.eugeville.com" class="logo">Eugene Costov</a>
+                <a href="http://www.eugeville.com">
                     <p class="black_logo">Eugene Costov</p>
                 </a>
                 <ul class="main-nav js--main-nav">
@@ -371,12 +371,18 @@
                     <div class="form-box">
                         <div class="row">
                             <form method="post" action="mailer.php" class="contact-form">
-                                    <div class="form-messages success">
-                                            Thank you! Your message was sent.
-                                        </div>
-                                        <div class="form-messages error">
-                                                Something went wrong. Please try again.
-                                            </div>
+                                <?php
+                                    if($_GET['success'] == 1) {
+                                        echo "<div class=\"form-messages success\">
+                                        Thank you! Your message was sent.
+                                    </div>";
+                                    }
+                                    if($_GET['success'] == -1) {
+                                        echo "<div class=\"form-messages error\">
+                                        Something went wrong. Please try again.
+                                    </div>";
+                                    }
+                                ?>
                                 <div class="row">
                                     <div class="col span-1-of-3">
                                         <p for="name">Name</p>
@@ -451,5 +457,4 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <script src="./resources/js/index.js"></script>
 </body>
-
 </html>

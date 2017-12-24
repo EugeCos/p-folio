@@ -22,8 +22,6 @@ body {
 	overflow-x: hidden
 }
 
-p{ padding: px }
-
 .clearfix{ zoom: 1 }
 
 .clearfix:after{
@@ -289,9 +287,10 @@ h2:after{
 .dev-text-box{
 	position: absolute;
 	width: 1140px;
-	top: 40%;
-	left: 10%;
-	/* transform: translate(-25%, -50%); */
+    top: 59%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 	text-align: center
 }
 
@@ -422,6 +421,22 @@ input[type=submit]{
 	text-align: center
 }
 
+.appDescription div{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.appDescription-right p{
+	width: 95%
+}
+
+.appDescription-right div{
+	margin-top: 10px;
+	width: 95%;
+	text-align: center;
+}
+
+
 .appFonts{
 	margin-top:10px;
 	font-size: 200%
@@ -433,12 +448,15 @@ input[type=submit]{
 }
 
 /* ---------------------------------------------- */
-/* FORM SECTION */
+/* CONTACT SECTION */
 /* ---------------------------------------------- */
+
+.section-contact{
+	height:85vh
+}
 
 input[type=text],
 input[type=email],
-select, 
 textarea{
 	width: 100%;
 	padding: 7px;
@@ -446,7 +464,7 @@ textarea{
 	border: 1px solid #ccc;
 	font-family: inherit;
 	font-weight: inherit;
-	font-size: 80%
+	font-size: 80%;
 }
 
 textarea{ height: 100px }
@@ -456,10 +474,11 @@ input[type=submit]{
 	font-weight: inherit;
 }
 
+/* this gets rid of blue form outlines */
 *:focus{outline:none}
 
 .form-box{
-	padding-top: 20px;
+	padding-top: 10px;
 	width: 100%;
 }
 
@@ -480,69 +499,54 @@ input[type=submit]{
 	text-align: right
 }
 
+.form-messages{
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgb(58, 58, 58)
+}
+
+.success{ background-color: rgb(149, 224, 149) }
+
+.error{ background-color: rgb(230, 167, 167) }
+
+
 /* ---------------------------------------------- */
 /* FOOTER */
 /* ---------------------------------------------- */
 
 footer{
 	background-color: #333;
-	padding: 20px;
+	padding-bottom: 8px;
 	font-size: 80%
 }
 
 footer p{
 	color: #888;
-	text-align: center;
-	font-size: 90%;
-	margin-top: 10px
+	text-align: right;
+	font-size: 100%;
 }
 
-.footer-nav,
-.social-links{
+.footer-nav{
 	list-style: none;
-	display: inline-block;
-}
-
-.footer-nav{ float:left }
-
-.social-links{
-	float: right;
-	font-size: 170%
 }
 
 .footer-nav li,
 .social-links li{
 	float:left;
-	margin-right: 20px
 }
 
-.footer-nav li:last-child,
-.social-links li:last-child{ margin-right:0 }
-
 .footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited{
+.footer-nav li a:visited{
 	text-decoration: none;
-	border: 0;
 	color: #888;
 }
 
 .footer-nav li a:hover,
 .footer-nav li a:active{ color: rgb(196, 196, 196) }
-
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-instagram,
-.ion-social-reddit{ -webkit-transition: color 0.3s; transition: color 0.3s }
-
-.ion-social-facebook:hover{ color: rgb(59, 89, 152) }
-
-.ion-social-twitter:hover{ color:rgb(85, 172, 238) }
-
-.ion-social-instagram:hover{ color:rgb(233, 89, 80) }
-
-.ion-social-reddit:hover{ color:rgb(255, 69, 0) }
 
 
 /* ---------------------------------------------- */
