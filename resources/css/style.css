@@ -149,7 +149,7 @@ section{ padding: 50px 0; }
 .sticky .black_logo { display: block }
 
 header{
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/space.jpg");
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/space2-min.jpg");
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/space2-min.jpg");
 	background-attachment: fixed;
 	height: 100vh;
@@ -435,7 +435,6 @@ input[type=submit]{
 	width: 95%;
 	text-align: center;
 }
-
 
 .appFonts{
 	margin-top:10px;
