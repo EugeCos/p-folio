@@ -8,7 +8,7 @@ $(document).ready(function () {
         else {
             $('nav').removeClass('sticky')
         }
-    }, { offset: "60px" }
+    }, { offset: "-60px" }
     );
 
 

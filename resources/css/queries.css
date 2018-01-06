@@ -7,6 +7,7 @@
     }
     
     .row{ padding: 0 2% }
+
 }
 
 
@@ -14,6 +15,34 @@
 @media only screen and (max-width: 1023px){
     body{ font-size: 18px }
     section{ padding: 60px 0 }
+
+    .social-icons{
+        list-style: none;
+        margin-top: 1px;
+        position: absolute;
+        left: 15%;
+        top: 186%
+    }
+
+    .social-icons li{
+        font-size: 15px
+    }
+
+    .appDescription{
+        padding-top: 20px
+    }
+
+    .appDescription p{
+        margin-bottom: 20px
+    }
+
+    .appDescription-right{
+        padding-top: 20px
+    }
+
+    .appDescription-right p{
+        margin-bottom: 20px
+    }
 
     .myPic{ height: 350px }
 
@@ -60,16 +89,42 @@
     body{ font-size: 16px }
     section{ padding: 30px 0 }
 
-    .row{ padding: 0 4% }
+    .row{ padding: 0 4%;
+    margin: 0px }
     
-    .col{ 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
+    .col { width: 100% !important; }
 
     .myPic{ 
-        height: 250px;
-        margin-top: 30px
+        height: 230px
+    }
+
+    .social-icons{
+        list-style: none;
+        margin-top: 1px;
+        position: static;
+        margin-bottom: 40px
+    }
+
+    .section-about,
+    .section-features{ margin-bottom: 0px }
+
+    .project-list{ display: none }
+
+    .appImage{
+        width: 320px;
+        height:220px;
+        border: 1px solid rgb(173, 173, 173);
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+    }
+
+    .space-between-text{ display: none }
+
+    .visit-project{
+        margin-bottom:50px
     }
 
     .main-nav{ display:none }
@@ -112,7 +167,14 @@
         width: 100%;
     } 
 
+    .section-contact{
+        height:190vh
+    }
 
+    .social-icons-contacts{ 
+        font-size: 90%; 
+        margin-top: 5px 
+    }
 }
 
 
@@ -120,5 +182,30 @@
 @media only screen and (max-width: 480px){
     section{ padding:25px 0 }
     .contact-form{ width: 100% }
+
+    .col { width: 100% !important; }
+
+    .dev-text-box { width: 100% }
+
+    .appImage{
+        width: 250px;
+        height:190px;
+    }
+
+    h2{ font-size: 120%}
+
+    h2:after{
+        display: block;
+        height: 1px;
+        background: #E53935;
+        content: "";
+        width: 70px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .section-contact{
+        height:250vh
+    }
 }
 

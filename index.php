@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam: 100,300,400" rel="stylesheet">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
-    <title>Eugene • Costov</title>
+    <title>Eugene Costov</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href=".resources/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicons/favicon-32x32.png">
@@ -76,12 +76,9 @@
                 <img src="./resources/img/myPic.JPG" class="myPic">
             </div>
             <div class="col span-1-of-2 myBio">
-                <h3>eugene costov</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.</p>
+                <h3 style="color: rgb(48, 48, 48)">eugene costov</h3>
+                <p style="color: rgb(48, 48, 48)">Graduated from BrainStation Toronto web development 10-week bootcamp in December 2017. Prior to engaging in web development I spent 5 years working in interational logistics, coordinationg complex import and export projects. I opted for a career switch to webdev because I consider this path to be a fresh, fast-paced, challenging and rewarding working environment. I also love to try out the latest technologies. Good knowledge of HTML5, CSS3, React, Node.js, Express and MongoDB.</p><br>
+                <p style="color: rgb(48, 48, 48)">I would describe myself as an avid road cyclist and skier, indie-film and indie-music lover, as well as long-term pizza enthusiast. I firmly believe the best days are the snowiest ones.</p>
                 <ul class="social-icons">
                     <a href="https://ca.linkedin.com/in/eugenecostov" target="_blank" class="social-linked">
                         <li>
@@ -100,7 +97,7 @@
         </div>
     </section>
 
-    <section class="section-features picture-background js--section-features clearfix" id="works">
+    <section class="section-features project-list picture-background js--section-features clearfix" id="works">
         <div class="row">
             <h2>projects</h2>
         </div>
@@ -170,7 +167,8 @@
                 <img src="./resources/img/projects/imm.jpg" class="appImage">
             </div>
             <div class="col span-1-of-2 appDescription">
-                <p><b>immigrate.TO</b> is a platform that allows users to pick a Canadian province and assess their eligibility to immigrate to that specific province. Assessment consists of simple generalized questionnaire (8 multiple choice questions). Answer to each question has certain amount of points. After user finishes the questionnaire, program generates a form which contains information on whether a user is eligible.</p><br>
+                <p><b>immigrate.TO</b> is a platform that allows users to pick a Canadian province and assess their eligibility to immigrate to that specific province. Assessment consists of simple generalized questionnaire (8 multiple choice questions). Answer to each question has certain amount of points. After user finishes the questionnaire, program generates a form which contains information on whether a user is eligible.</p>
+                <br>
                 <p><b>immigrate.TO</b> is a single page application made with React Router. It also uses Bing News API to generate 4 latest local news headlines (it filters negative news) on each province's page.</p>
                 <div>
                     <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -179,8 +177,8 @@
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
-                <div>
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                <div class="visit-project">
+                    <a href="https://immigrate-to.herokuapp.com" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
         </div>
@@ -191,8 +189,12 @@
             <h2>Weather App</h2>
         </div>
         <div class="row js--wp-1">
-            <div class="col span-1-of-2 appDescription-right">
-                <p><b>Wether APP</b> is a simple weather forecast platform. It uses Open Weather Map API to display current temperature and weather condition based on user's input. It also updates the image of the city in the box on the right, also based on user's input. Finally, it updates the background image based on the weather condition (rain, snow, haze, fog, clear, clouds etc.).</p><br>
+        <div class="col span-1-of-2">
+                <img src="./resources/img/projects/weather.JPG" class="appImage">
+            </div>
+            <div class="col span-1-of-2 appDescription">
+            <h3 class="space-between-text">&nbsp;</h3>
+                <p><b>Weather APP</b> is a simple weather forecast platform. It uses Open Weather Map API to display current temperature and weather condition based on user's input. It also updates the image of the city in the box on the right, also based on user's input. Finally, it updates the background image based on the weather condition (rain, snow, haze, fog, clear, clouds etc.).</p><br>
                 <p><b>Weather APP</b> is a single page application made with React Router. It uses Axios to pull the data from API's. It uses React Lifecycle methods to avoid issues with asynchronicity.</p>
                 <div>
                     <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -201,13 +203,11 @@
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
-                <div>
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                <div class="visit-project">
+                    <a href="https://euge-weather.herokuapp.com/" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
-            <div class="col span-1-of-2">
-                <img src="./resources/img/projects/weather.JPG" class="appImage">
-            </div>
+           
         </div>
     </section>
 
@@ -220,7 +220,7 @@
                 <img src="./resources/img/projects/audio_player.JPG" class="appImage">
             </div>
             <div class="col span-1-of-2 appDescription">
-                <h3>&nbsp;</h3>
+                <h3 class="space-between-text">&nbsp;</h3>
                 <p>A simple old school Nintendo style audio player with 4 tracks. Functionality includes play/pause as well as previous/next buttons. Each song has its own description page. My favorite school project, because it includes an audio component.</p><br>
                 <p>This audio player is a single page application made with React Router. Constructor function is used to store information for each song.</p>
                 <div>
@@ -230,8 +230,8 @@
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
-                <div>
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                <div class="visit-project">
+                    <a href="https://euge-audioplayer.herokuapp.com/" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
         </div>
@@ -242,8 +242,11 @@
             <h2>Snowman</h2>
         </div>
         <div class="row js--wp-1">
-            <div class="col span-1-of-2 appDescription-right">
-                <h3>&nbsp;</h3>
+        <div class="col span-1-of-2">
+                <img src="./resources/img/projects/snowman.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 appDescription">
+            <h3 class="space-between-text">&nbsp;</h3>
                 <p><b>Snowman</b> is a less dire version of the famous paper and pencil Hangman game where player has to guess a word. With every wrong guess a part of a snowman gets melted, starting with the head. After 6 wrong guesses snowman is completely melted and game is lost. If user guesses the word, game is won.</p><br>
                 <p><b>Snowman</b> is a single page application made with React Router.</p>
                 <div>
@@ -253,13 +256,11 @@
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
-                <div>
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                <div class="visit-project">
+                    <a href="https://euge-snowman.herokuapp.com/" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
-            <div class="col span-1-of-2">
-                <img src="./resources/img/projects/snowman.jpg" class="appImage">
-            </div>
+
         </div>
     </section>
 
@@ -271,10 +272,10 @@
             <div class="col span-1-of-2">
                 <img src="./resources/img/projects/todo.jpg" class="appImage">
             </div>
-            <div class="col span-1-of-2 myBio">
-                <h3>&nbsp;</h3>
-                <p>A simple todo app with some CSS styling.</p>
-                <p>MongoDB is used as a database.</p>
+            <div class="col span-1-of-2 appDescription">
+            <h3 class="space-between-text">&nbsp;</h3>
+                <p>A simple todo app with some CSS styling.</p><br>
+                <p>MongoDB is used as database.</p>
                 <h3>&nbsp;</h3>
                 <div>
                     <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -284,7 +285,7 @@
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <img src="./resources/img/mongoDB.png" class="mongo">
                 </div>
-                <div>
+                <div class="visit-project">
                     <a href="#" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
@@ -296,22 +297,23 @@
             <h2>Simple Movie Database</h2>
         </div>
         <div class="row js--wp-1">
-            <div class="col span-1-of-2 appDescription-right">
-                <h3>&nbsp;</h3>
-                <p>A simple movie database.</p>
+        <div class="col span-1-of-2">
+                <img src="./resources/img/projects/imdb.jpg" class="appImage">
+            </div>
+            <div class="col span-1-of-2 appDescription">
+            <h3 class="space-between-text">&nbsp;</h3>
+                <p>A simple movie database with dynamic URL's using Express.</p>
                 <div>
                     <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
-                <div>
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                <div class="visit-project">
+                    <a href="https://euge-moviedb.herokuapp.com/" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
-            <div class="col span-1-of-2">
-                <img src="./resources/img/projects/imdb.jpg" class="appImage">
-            </div>
+
         </div>
     </section>
 
@@ -328,7 +330,7 @@
                     <a href="mailto:eugene.costov@ymail.com" class="social-email">
                         <li>
                             <i class="fas fa-envelope-square email"></i>
-                            <span>&nbsp;&nbsp;/&nbsp;eugene.costov@ymail.com</span>
+                            <span>&nbsp;&nbsp;/&nbsp;eugene.costov@yahoo.com</span>
                     </a>
                     </li>
                     <a href="https://ca.linkedin.com/in/eugenecostov" target="_blank" class="social-linked">
