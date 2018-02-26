@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112498722-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112498722-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -140,10 +151,10 @@
                 </a>
             </div>
             <div class="col span-1-of-3">
-                <a href="#todo" style="text-decoration:none">
+                <a href="#currency" style="text-decoration:none">
                     <figure class="project-box">
-                        <img src="./resources/img/projects/todo.jpg" alt="todo" />
-                        <p class="text">To-do List</p>
+                        <img src="./resources/img/projects/cur.JPG" alt="currency" />
+                        <p class="text">Currency Converter</p>
                     </figure>
                 </a>
             </div>
@@ -204,7 +215,7 @@
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
                 <div class="visit-project">
-                    <a href="https://euge-weather.herokuapp.com/" target="_blank" class="btn btn-project">Visit Project</a>
+                    <a href="./weather/index.html" target="_blank" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
            
@@ -264,29 +275,25 @@
         </div>
     </section>
 
-    <section class="section-features picture-background js--section-features" id="todo">
+    <section class="section-features picture-background js--section-features" id="currency">
         <div class="row">
-            <h2>To-Do App</h2>
+            <h2>Currency Converter</h2>
         </div>
         <div class="row js--wp-1">
             <div class="col span-1-of-2">
-                <img src="./resources/img/projects/todo.jpg" class="appImage">
+                <img src="./resources/img/projects/cur.JPG" class="appImage">
             </div>
             <div class="col span-1-of-2 appDescription">
             <h3 class="space-between-text">&nbsp;</h3>
-                <p>A simple todo app with some CSS styling.</p><br>
-                <p>MongoDB is used as database.</p>
-                <h3>&nbsp;</h3>
+                <p>Rates converter with three currencies: USD, CAD and EUR. Currency data is fetched from Fixer.io API. Project created using Vanilla JS (ES6), SASS and HTML.</p><br>
                 <div>
-                    <i class="fab fa-react appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <i class="fab fa-node appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-js-square appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-html5 appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <i class="fab fa-css3-alt appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <img src="./resources/img/mongoDB.png" class="mongo">
+                    <i class="fab fa-sass appFonts"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
                 <div class="visit-project">
-                    <a href="#" class="btn btn-project">Visit Project</a>
+                    <a href="./currency/index.html" class="btn btn-project">Visit Project</a>
                 </div>
             </div>
         </div>

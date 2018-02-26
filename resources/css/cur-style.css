@@ -1,0 +1,157 @@
+/* line 4, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+body {
+  color: #555;
+  background: black;
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  text-align: center;
+}
+
+/* BACKGROUND IMAGE */
+/* line 21, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+.bg-image {
+  position: absolute;
+  background: url("/resources/img/projects/bg.jpeg");
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+/* HEADER */
+/* line 35, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+header {
+  background: black;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* line 42, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+h1 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* line 47, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+h3 {
+  margin-top: 20px;
+}
+
+/* line 49, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+h4 {
+  margin-top: 0;
+}
+
+/* CONTENT */
+/* line 53, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes {
+  padding: 1.5em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 58, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 64, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes li {
+  border: 1px solid gainsboro;
+  margin: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 72, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes .container {
+  padding: 14px;
+  background-color: gainsboro;
+}
+
+/* line 77, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes .container:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.123);
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.123);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #cfcfcf;
+}
+
+/* line 85, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes form {
+  margin-top: 14px;
+}
+
+/* line 87, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes input, #currency-boxes select {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+/* line 96, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes input {
+  width: 65%;
+}
+
+/* line 98, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes select {
+  width: 65px;
+  margin-left: 10px;
+  padding: 11px 0;
+}
+
+/* line 104, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes label {
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+
+/* line 110, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+#currency-boxes .disclaimer {
+  text-align: right;
+  margin-right: 5%;
+}
+
+/* line 117, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+.error {
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 15px auto;
+  width: 80%;
+  background: #ffaaaa;
+}
+
+/* line 126, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+.date-container {
+  color: gainsboro;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* line 131, C:/Users/Eugene/Documents/My_projects/currency/resources/sccs/style.scss */
+.date-container h3 {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=../css/style.map */
