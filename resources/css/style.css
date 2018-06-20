@@ -362,8 +362,8 @@ h2:after{
 	margin: 0;
 }
 
-.project-box .text{
-	position:relative;
+.text{
+	position: relative;
 	font-size: 150%;
 	color: white;
 	text-decoration: none;
@@ -371,6 +371,7 @@ h2:after{
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.3s; 
+	pointer-events: none;
 }
 
 .project-box:hover .text{
